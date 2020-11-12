@@ -1,10 +1,12 @@
 /* Первичный цвет текста --primary-text-color */
 /* Цвет заголовков и ссылок --secondary-text-color */
-/* Цвет фона, h1, лого в футере, адреса --primary-bg-color */
+/* Цвет фона, h1, лого и адрес в футере --primary-bg-color */
+/* Вторичный цвет фона --secondary-bg-color */
 /* Акцент --accent-color */
-/* Контакты в футере #FFFFFF, 60 % */
-/* Вторичный цвет фона #F5F4FA */
-/* Цвет футера #2F303A */
+/* Контакты в футере --footer-text-color */
+/* Цвет футера --footer-bg-color */
+
+/* index.html */
 
 .hero-title {
   color: var(--primary-bg-color);
@@ -14,11 +16,20 @@
   color: var(--secondary-text-color);
 }
 
-.title {
-  color: var(--secondary-text-color);
+.hero .btn {
+  color: var(--primary-bg-color);
+  background-color: var(--accent-color);
 }
 
-.hero .btn {
+/* portfolio.html */
+
+.filters .btn {
+  color: var(--secondary-text-color);
+  background-color: var(--secondary-bg-color);
+}
+
+.filters .btn:hover,
+.filters .btn:focus {
   color: var(--primary-bg-color);
   background-color: var(--accent-color);
 }
