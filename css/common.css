@@ -1,0 +1,44 @@
+/* Первичный цвет текста #757575 */
+/* Цвет заголовков и ссылок #212121 */
+/* Цвет фона, h1, лого в футере, адреса: #FFFFFF */
+/* Акцент #2196F3 */
+/* Контакты в футере #FFFFFF, 60 % */
+/* Вторичный цвет фона #F5F4FA */
+/* Цвет футера #2F303A */
+
+:root {
+  --primary-text-color: #757575;
+  --primary-bg-color: #fff;
+  --secondary-text-color: #212121;
+  --accent-color: #2196f3;
+}
+
+body {
+  background-color: #fff;
+  color: var(--primary-text-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.logo {
+  color: var(--secondary-text-color);
+}
+
+.site-nav .link {
+  color: var(--secondary-text-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+.link:hover,
+.link:focus {
+  color: var(--accent-color);
+}
+
+.header-contacts a {
+  color: var(--primary-text-color);
+}
