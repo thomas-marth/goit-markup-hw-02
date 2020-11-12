@@ -23,13 +23,13 @@
 
 /* portfolio.html */
 
-.filters .btn {
+.filter-btn {
   color: var(--secondary-text-color);
   background-color: var(--secondary-bg-color);
 }
 
-.filters .btn:hover,
-.filters .btn:focus {
+.filter-btn:hover,
+.filter-btn:focus {
   color: var(--primary-bg-color);
   background-color: var(--accent-color);
 }
