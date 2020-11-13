@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Портфолио | WebStudio</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/normalize.css" />
     <link rel="stylesheet" href="./css/common.css" />
     <link rel="stylesheet" href="./css/main.css" />
@@ -28,100 +33,118 @@
     </header>
 
     <main>
-      <!-- Фильтры -->
-      <nav class="filters">
-        <ul class="list">
-          <li><button class="filter-btn">Все</button></li>
-          <li><button class="filter-btn">Веб-сайты</button></li>
-          <li><button class="filter-btn">Приложения</button></li>
-          <li><button class="filter-btn">Дизайн</button></li>
-          <li><button class="filter-btn">Маркетинг</button></li>
-        </ul>
-      </nav>
+      <section class="portfolio">
+        <!-- Фильтры -->
+        <nav class="filters">
+          <ul class="list">
+            <li><button type="button">Все</button></li>
+            <li><button type="button">Веб-сайты</button></li>
+            <li><button type="button">Приложения</button></li>
+            <li><button type="button">Дизайн</button></li>
+            <li><button type="button">Маркетинг</button></li>
+          </ul>
+        </nav>
 
-      <!-- Портфолио -->
-      <section class="section">
-        <ul class="portfolio list">
+        <!-- Портфолио -->
+        <ul class="project list">
           <li>
-            <img
-              src="./images/technokryak.jpg"
-              alt="дисплей ноутбука с демонстрацией сайта Технокряк"
-              width="370"
-            />
-            <h3 class="title">Технокряк</h3>
-            <p>Веб-сайт</p>
+            <a href="" class="item"
+              ><img
+                src="./images/technokryak.jpg"
+                alt="дисплей ноутбука с демонстрацией сайта Технокряк"
+                width="370"
+              />
+              <h3 class="title">Технокряк</h3>
+              <p class="type">Веб-сайт</p>
+            </a>
           </li>
           <li>
-            <img
-              src="./images/poster.jpg"
-              alt="Два баскетболиста из команд New Orleans и Golden Star сражаются за мяч"
-              width="370"
-            />
-            <h3 class="title">Постер New Orlean vs Golden Star</h3>
-            <p>Дизайн</p>
+            <a href="" class="item">
+              <img
+                src="./images/poster.jpg"
+                alt="Два баскетболиста из команд New Orleans и Golden Star сражаются за мяч"
+                width="370"
+              />
+              <h3 class="title">Постер New Orlean vs Golden Star</h3>
+              <p class="type">Дизайн</p>
+            </a>
           </li>
           <li>
-            <img
-              src="./images/seafood.jpg"
-              alt="логотип ресторана seafood"
-              width="370"
-            />
-            <h3>Ресторан Seafood</h3>
-            <p>Приложение</p>
+            <a href="" class="item">
+              <img
+                src="./images/seafood.jpg"
+                alt="логотип ресторана seafood"
+                width="370"
+              />
+              <h3 class="title">Ресторан Seafood</h3>
+              <p class="type">Приложение</p>
+            </a>
           </li>
           <li>
-            <img
-              src="./images/prime.jpg"
-              alt="Наушники черного цвета"
-              width="370"
-            />
-            <h3 class="title">Проект Prime</h3>
-            <p>Маркетинг</p>
+            <a href="" class="item">
+              <img
+                src="./images/prime.jpg"
+                alt="Наушники черного цвета"
+                width="370"
+              />
+              <h3 class="title">Проект Prime</h3>
+              <p class="type">Маркетинг</p>
+            </a>
           </li>
           <li>
-            <img
-              src="./images/boxes.jpg"
-              alt="Две картонных коробки белого и коричневого цвета"
-              width="370"
-            />
-            <h3 class="title">Проект Boxes</h3>
-            <p>Приложение</p>
+            <a href="" class="item">
+              <img
+                src="./images/boxes.jpg"
+                alt="Две картонных коробки белого и коричневого цвета"
+                width="370"
+              />
+              <h3 class="title">Проект Boxes</h3>
+              <p class="type">Приложение</p>
+            </a>
           </li>
           <li>
-            <img
-              src="./images/inspiration.jpg"
-              alt="Интерфейс сайта Inspiration has no Borders на экране монитора"
-              width="370"
-            />
-            <h3 class="title">Inspiration has no Borders</h3>
-            <p>Веб-сайт</p>
+            <a href="" class="item">
+              <img
+                src="./images/inspiration.jpg"
+                alt="Интерфейс сайта Inspiration has no Borders на экране монитора"
+                width="370"
+              />
+              <h3 class="title">Inspiration has no Borders</h3>
+              <p class="type">Веб-сайт</p>
+            </a>
           </li>
           <li>
-            <img
-              src="./images/limited-edition.jpg"
-              alt="разворот журнала Limited Edition"
-              width="370"
-            />
-            <h3 class="title">Издание Limited Edition</h3>
-            <p>Дизайн</p>
+            <a href="" class="item">
+              <img
+                src="./images/limited-edition.jpg"
+                alt="разворот журнала Limited Edition"
+                width="370"
+              />
+              <h3 class="title">Издание Limited Edition</h3>
+              <p class="type">Дизайн</p>
+            </a>
           </li>
           <li>
-            <img
-              src="./images/lab.jpg"
-              alt="белый ярлык на веревке с надписью Label Tag"
-              width="370"
-            />
-            <h3 class="title">Проект LAB</h3>
-            <p>Маркетинг</p>
+            <a href="" class="item">
+              <img
+                src="./images/lab.jpg"
+                alt="белый ярлык на веревке с надписью Label Tag"
+                width="370"
+              />
+              <h3 class="title">Проект LAB</h3>
+              <p class="type">Маркетинг</p>
+            </a>
           </li>
           <li>
-            <img
-              src="./images/growing-business.jpg"
-              alt="Демонстрация сайта Growing Business на экране ноутбука"
-              width="370"
-            />
-            <h3 class="title">Growing Business</h3>
-            <p>Приложение</p>
+            <a href="" class="item">
+              <img
+                src="./images/growing-business.jpg"
+                alt="Демонстрация сайта Growing Business на экране ноутбука"
+                width="370"
+              />
+              <h3 class="title">Growing Business</h3>
+              <p class="type">Приложение</p>
+            </a>
           </li>
         </ul>
       </section>

@@ -19,19 +19,35 @@
 body {
   background-color: #fff;
   color: var(--primary-text-color);
+  font-family: 'Roboto', 'Segoe UI', sans-serif;
+  font-size: 14px;
+  line-height: 1.72;
+  letter-spacing: 0.03em;
 }
 
 .list {
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* Header */
 .logo {
-  color: var(--secondary-text-color);
+  color: var(--accent-color);
+  font-family: Raleway, 'Segoe UI', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
 }
 
 .site-nav .link {
   color: var(--secondary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .site-nav .link.current {
@@ -45,23 +61,32 @@ body {
 
 .header-contacts a {
   color: var(--primary-text-color);
-}
-
-/* Main content */
-.title {
-  color: var(--secondary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 /* Footer */
 
+footer {
+  background: var(--footer-bg-color);
+}
+
 footer .logo {
-  color: var(--primary-bg-color);
+  color: var(--accent-color);
 }
 
 address .location {
   color: var(--primary-bg-color);
+  font-size: 14px;
+  line-height: 1.71;
+  font-style: normal;
 }
 
 footer .link {
   color: var(--footer-text-color);
+  font-size: 14px;
+  line-height: 1.71;
+  font-style: normal;
 }
