@@ -42,6 +42,10 @@ a {
   line-height: 1.2;
 }
 
+.studio {
+  color: var(--secondary-text-color);
+}
+
 .site-nav .link {
   color: var(--secondary-text-color);
   font-weight: 500;
@@ -75,6 +79,10 @@ footer {
 
 footer .logo {
   color: var(--accent-color);
+}
+
+footer .studio {
+  color: var(--primary-bg-color);
 }
 
 address .location {
